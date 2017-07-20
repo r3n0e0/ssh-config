@@ -3,6 +3,8 @@ SSH-CONFIG
 
 A ssh config parser in PHP
 
+[![Build Status](https://travis-ci.org/r3n0e0/ssh-config.svg?branch=master)](https://travis-ci.org/r3n0e0/ssh-config)
+
 Example
 -------
 
