@@ -28,6 +28,7 @@ class Parser
         $lines = explode("\n", $this->input);
         foreach ($lines as $line) {
             if (empty($line)) continue;
+            if (trim($line)[0] === '#') continue;
             [$_, $key, $value] = $this->regexp_match($line);
             if ($key === 'Host') {
                 if (!empty($host)) array_push($this->parsed_result, $host);
